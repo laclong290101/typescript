@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        .content {
+            width: 100%;
+        }
+
+        .pokemon {
+            float: left;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 5px 10px 10px #e8f5ee;
+            width: 10%;
+            height: 150px;
+            margin: 5px;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .pokemon>img {
+            margin: 3px;
+        }
+
+        .pokemon>div {
+            position: absolute;
+            left: 3;
+            top: 3;
+            background-color: rgb(230, 138, 165);
+            border: 1px solid rgb(230, 138, 165);
+            border-radius: 0px 5px 0px 5px;
+            padding: 2px;
+        }
+    </style>
+    <main>
+        <h1>Typed Pokedex</h1>
+        <div class="content" id="app"></div>
+    </main>
+    <script src="../src/index.ts"></script>
+</body>
+
+</html>
